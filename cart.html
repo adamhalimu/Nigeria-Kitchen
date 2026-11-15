@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Cart | Nigerian Kitchen</title>
+    <meta name="description" content="Review your meals and send your order to Nigerian Kitchen on WhatsApp.">
+    <!-- The cart is personal, so keep it out of Google -->
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#0a2e17">
+
+    <!-- Icons -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/extras.css">
+</head>
+
+<body> 
+
+    <div class="announcement-bar">
+        Good food, great mood! Meals from ₦2,000
+    </div>
+
+    <!-- Navigation -->
+    <header class="site-header">
+
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">NK</span>
+
+                <span class="logo-text">
+                    <strong>NIGERIA</strong>
+                    <span>KITCHEN</span>
+                </span>
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <div class="nav-links" id="nav-links">
+
+                <a href="index.html" class="nav-link">Home</a>
+
+                <a href="menu.html" class="nav-link">Our Menu</a>
+
+                <a href="about.html" class="nav-link">About Us</a>
+
+                <a href="#location" class="nav-link">Contact</a>
+
+                <a href="cart.html" class="nav-link cart-nav-link active">
+                    Cart (<span class="cart-count">0</span>)
+                </a>
+
+                <a
+                    href="https://wa.me/2349074737356"
+                    class="nav-order-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Order Now <span aria-hidden="true">↗</span>
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main class="cart-page">
+        <div class="cart-heading">
+            <p class="section-label">YOUR ORDER</p>
+            <h1>Your Shopping Cart</h1>
+            <p>Review your meals before placing your order.</p>
+        </div>
+
+        <div class="cart-layout">
+
+            <section class="cart-items-section">
+                <div id="cart-items"></div>
+
+                <div id="empty-cart" class="empty-cart" hidden>
+                    <h2>Your cart is empty</h2>
+                    <p>You haven't added any meals yet.</p>
+                    <a href="menu.html" class="cart-shop-button">
+                        Explore Our Menu
+                    </a>
+                </div>
+            </section>
+
+            <aside class="cart-summary" id="cart-summary">
+                <h2>Order Summary</h2>
+
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal">₦0</span>
+                </div>
+
+                <div class="summary-row total-row">
+                    <span>Total</span>
+                    <span id="cart-total">₦0</span>
+                </div>
+
+                <label for="order-notes">Additional requests</label>
+                <textarea
+                    id="order-notes"
+                    placeholder="Any additional instructions?"
+                ></textarea>
+
+                <button id="checkout-button" class="checkout-button">
+                    Proceed to WhatsApp
+                </button>
+
+                <div id="order-confirm" class="order-confirm" hidden>
+                    <p>Did you send your order on WhatsApp?</p>
+
+                    <button type="button" id="confirm-sent"
+                        class="confirm-yes">
+                        Yes, clear my cart
+                    </button>
+
+                    <button type="button" id="keep-cart"
+                        class="confirm-no">
+                        No, keep my items
+                    </button>
+                </div>
+
+                <a href="menu.html" class="continue-shopping">
+                    ← Continue Shopping
+                </a>
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        NIGERIA<span>KITCHEN</span>
+                    </a>
+
+                    <p>
+                        Good food, great mood. Enjoy delicious Nigerian
+                        meals made to satisfy your cravings.
+                    </p>
+
+                    <a href="https://wa.me/2349074737356"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="footer-order-link">
+                        Order on WhatsApp →
+                    </a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Our Menu</a>
+                    <a href="about.html">About Us</a>
+                    <a href="index.html#location">Find Us</a>
+                    <a href="cart.html">Cart</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>📍 Gravotab Plaza, Kuje–Gwagwalada Road,
+                        Gwagwalada, Abuja.</p>
+                    <a href="https://wa.me/2349074737356"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        WhatsApp: +234 907 473 7356
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Nigeria Kitchen. All rights reserved.
+                </p>
+                <p>Good Food. Great Mood.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Order matters: data first, then shared scripts, then page script -->
+    <script src="js/menu-data.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/cart-counter.js"></script>
+    <script src="js/cart.js"></script>
+
+</body>
+</html>

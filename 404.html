@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Page Not Found | Nigerian Kitchen</title>
+    <meta name="description" content="Sorry, we couldn't find that page. Explore the Nigerian Kitchen menu or order on WhatsApp.">
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#0a2e17">
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- Paths start with "/" so this page works from any URL.
+         If your site is NOT at the root of its domain (for example a GitHub
+         Pages project like username.github.io/repo/), remove the leading "/"
+         from every href and src in this file. -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <style>
+        .not-found {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 64px 20px;
+        }
+
+        .not-found-code {
+            margin: 0;
+            font-size: clamp(5rem, 22vw, 10rem);
+            font-weight: 800;
+            line-height: 1;
+            color: #d4af37;
+        }
+
+        .not-found h1 {
+            margin: 8px 0 12px;
+        }
+
+        .not-found p {
+            max-width: 480px;
+            margin: 0 auto 28px;
+        }
+
+        .not-found-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="announcement-bar">
+        Good food, great mood! Meals from ₦2,000
+    </div>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <div class="container navbar">
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <a href="/index.html" class="logo">
+                NIGERIA<span>KITCHEN</span>
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="/index.html">Home</a>
+                <a href="/menu.html">Our Menu</a>
+                <a href="/about.html">About Us</a>
+                <a href="/index.html#location">Contact</a>
+                <a href="/cart.html" class="cart-nav-link">
+                    Cart (<span class="cart-count">0</span>)
+                </a>
+            </nav>
+
+            <a href="https://wa.me/+2349074737356"
+                class="nav-order-button"
+                target="_blank"
+                rel="noopener noreferrer">
+                Order Now
+            </a>
+
+        </div>
+    </header>
+
+
+    <main class="not-found">
+        <div class="container">
+
+            <p class="not-found-code">404</p>
+
+            <h1>This Plate Is Empty</h1>
+
+            <p>
+                Sorry, we couldn't find the page you were looking for.
+                It may have moved, or the link may be mistyped.
+                Let's get you back to the good food.
+            </p>
+
+            <div class="not-found-actions">
+
+                <a href="/menu.html" class="button button-primary">
+                    Explore Our Menu →
+                </a>
+
+                <a href="/index.html" class="button button-outline">
+                    Back to Home
+                </a>
+
+                <a href="https://wa.me/2349074737356"
+                    class="button button-outline"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Order on WhatsApp
+                </a>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+                    <a href="/index.html" class="footer-logo">
+                        NIGERIA<span>KITCHEN</span>
+                    </a>
+
+                    <p>
+                        Good food, great mood. Enjoy delicious Nigerian
+                        meals made to satisfy your cravings.
+                    </p>
+
+                    <a href="https://wa.me/2349074737356"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="footer-order-link">
+                        Order on WhatsApp →
+                    </a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="/index.html">Home</a>
+                    <a href="/menu.html">Our Menu</a>
+                    <a href="/about.html">About Us</a>
+                    <a href="/index.html#location">Find Us</a>
+                    <a href="/cart.html">Cart</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>📍 Gravotab Plaza, Kuje–Gwagwalada Road,
+                        Gwagwalada, Abuja.</p>
+                    <a href="https://wa.me/2347026456760"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        WhatsApp: +234 907 473 7356
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Nigeria Kitchen. All rights reserved.
+                </p>
+                <p>Good Food. Great Mood.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="/js/navbar.js"></script>
+    <script src="/js/cart-counter.js"></script>
+    <script>
+        document.getElementById("current-year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>

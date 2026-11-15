@@ -1,0 +1,117 @@
+/* css/extras.css
+   Styles for: big takeaway selector, age notice, cart notes, order confirm.
+   Change the colours here if they don't match your brand. */
+
+:root {
+    --extras-accent: #c8102e;
+    --extras-accent-soft: #fff5f5;
+    --extras-warning-bg: #fff4e5;
+    --extras-warning-border: #f5c26b;
+}
+
+/* ---------- Big takeaway selector (product page) ---------- */
+.product-size {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.product-size[hidden] {
+    display: none;
+}
+
+.product-size-title {
+    font-weight: 600;
+}
+
+.size-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.size-option span {
+    flex: 1;
+}
+
+.size-option:has(input:checked) {
+    border-color: var(--extras-accent);
+    background: var(--extras-accent-soft);
+}
+
+/* ---------- 18+ notice and badge (menu + product pages) ---------- */
+.age-notice {
+    margin: 16px 0;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: var(--extras-warning-bg);
+    border: 1px solid var(--extras-warning-border);
+    font-size: 0.95rem;
+}
+
+.age-notice[hidden] {
+    display: none;
+}
+
+.age-badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 2px 7px;
+    border-radius: 6px;
+    background: var(--extras-accent);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+/* ---------- Special request note (cart page) ---------- */
+.cart-item-note {
+    margin: 4px 0 8px;
+    font-size: 0.9rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+/* ---------- "Did you send your order?" box (cart page) ---------- */
+.order-confirm {
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 12px;
+    background: var(--extras-warning-bg);
+    border: 1px solid var(--extras-warning-border);
+    text-align: center;
+}
+
+.order-confirm[hidden] {
+    display: none;
+}
+
+.order-confirm p {
+    margin: 0 0 8px;
+    font-weight: 600;
+}
+
+.order-confirm button {
+    margin: 8px 4px 0;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--extras-accent);
+    cursor: pointer;
+    font: inherit;
+}
+
+.order-confirm .confirm-yes {
+    background: var(--extras-accent);
+    color: #fff;
+}
+
+.order-confirm .confirm-no {
+    background: transparent;
+    color: var(--extras-accent);
+}

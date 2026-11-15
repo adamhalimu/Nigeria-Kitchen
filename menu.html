@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu | Jollof Rice, Soups, Shawarma &amp; Drinks | Nigerian Kitchen</title>
+    <meta name="description" content="Browse the Nigerian Kitchen menu: jollof and fried rice, egusi, ogbono and more soups, chicken, beef, shawarma and cold drinks. Prices from ₦250.">
+    <link rel="canonical" href="https://YOUR-DOMAIN.com/menu.html">
+    <meta name="theme-color" content="#0a2e17">
+
+    <!-- Icons -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Share preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nigerian Kitchen">
+    <meta property="og:locale" content="en_NG">
+    <meta property="og:title" content="Our Menu | Nigerian Kitchen">
+    <meta property="og:description" content="Rice, soups, protein, shawarma and drinks. See the full menu and order on WhatsApp.">
+    <meta property="og:url" content="https://YOUR-DOMAIN.com/menu.html">
+    <meta property="og:image" content="https://YOUR-DOMAIN.com/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Nigerian Kitchen, Gwagwalada, Abuja">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/extras.css">
+
+    <!-- Order matters: data first, then shared scripts, then page script -->
+    <script src="js/menu-data.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/cart-counter.js" defer></script>
+    <script src="js/menu.js" defer></script>
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        Good food, great mood! Meals from ₦2,000
+    </div>
+
+    <!-- Navigation -->
+     <header class="site-header">
+
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">NK</span>
+
+                <span class="logo-text">
+                    <strong>NIGERIA</strong>
+                    <span>KITCHEN</span>
+                </span>
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <div class="nav-links" id="nav-links">
+
+                <a href="index.html" class="nav-link">Home</a>
+
+                <a href="menu.html" class="nav-link active">Our Menu</a>
+
+                <a href="about.html" class="nav-link">About Us</a>
+
+                <a href="#location" class="nav-link">Contact</a>
+
+                <a href="cart.html" class="nav-link cart-nav-link">
+                    Cart (<span class="cart-count">0</span>)
+                </a>
+
+                <a
+                    href="https://wa.me/2349074737356"
+                    class="nav-order-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Order Now <span aria-hidden="true">↗</span>
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Menu Hero -->
+    <section class="menu-hero">
+        <div class="container">
+            <span class="eyebrow">FRESH FROM OUR KITCHEN</span>
+
+            <h1>Explore Our <span>Menu.</span></h1>
+
+            <p>
+                From satisfying rice dishes to traditional Nigerian
+                favourites, discover something delicious.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Menu Section -->
+    <section class="menu-section section-padding">
+
+        <div class="container">
+
+            <div class="menu-heading">
+                <div>
+                    <span class="eyebrow">MADE WITH FLAVOUR</span>
+                    <h2>Discover Our Meals</h2>
+                </div>
+
+                <div class="menu-search">
+                    <input
+                        type="search"
+                        id="menu-search"
+                        placeholder="Search meals..."
+                        aria-label="Search meals"
+                    >
+                </div>
+            </div>
+
+
+            <!-- Category Filters -->
+            <div class="menu-filters">
+
+                <button class="filter-button active" data-category="all">
+                    All Meals
+                </button>
+
+                <button class="filter-button" data-category="rice">
+                    Rice Dishes
+                </button>
+
+                <button class="filter-button" data-category="soups">
+                    Soups
+                </button>
+
+                <button class="filter-button" data-category="protein">
+                    Protein
+                </button>
+
+                <button class="filter-button" data-category="shawarma">
+                    Shawarma
+                </button>
+
+                <button class="filter-button" data-category="drinks">
+                    Drinks
+                </button>
+
+            </div>
+
+
+            <p class="age-notice" id="age-notice" hidden>
+                 Alcoholic drinks are for customers aged 18 and over.
+            </p>
+
+
+            <!-- Meals Grid -->
+            <div class="menu-grid" id="menu-grid">
+                <!-- Meals generated by js/menu.js -->
+            </div>
+
+            <p class="no-meals" id="no-meals" hidden>
+                No meals found. Try another search.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Order CTA -->
+    <section class="menu-cta">
+        <div class="container">
+            <span class="eyebrow">READY TO EAT?</span>
+
+            <h2>Your Next Favourite Meal Is Just a Message Away.</h2>
+
+            <p>Place your order directly through WhatsApp.</p>
+
+            <a href="https://wa.me/2349074737356"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="button menu-cta-button">
+                Order on WhatsApp →
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        NIGERIA<span>KITCHEN</span>
+                    </a>
+
+                    <p>
+                        Good food, great mood. Enjoy delicious Nigerian
+                        meals made to satisfy your cravings.
+                    </p>
+
+                    <a href="https://wa.me/2349074737356"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="footer-order-link">
+                        Order on WhatsApp →
+                    </a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Our Menu</a>
+                    <a href="about.html">About Us</a>
+                    <a href="index.html#location">Find Us</a>
+                    <a href="cart.html">Cart</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>📍 Gravotab Plaza, Kuje–Gwagwalada Road,
+                        Gwagwalada, Abuja.</p>
+
+                    <a href="https://wa.me/2349074737356"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        WhatsApp: +234 907 473 7356
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Nigeria Kitchen. All rights reserved.
+                </p>
+
+                <p>Good Food. Great Mood.</p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

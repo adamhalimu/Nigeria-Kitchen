@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://YOURDOMAIN.com/</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/menu.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/about.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/cart.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/blog/index.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/blog/jollof-rice-recipe.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/blog/bitterleaf-soup-recipe.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/blog/catfish-pepper-soup.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/blog/nigerian-cooking-guide.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/blog/popular-nigerian-soups.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOURDOMAIN.com/blog/homemade-nigerian-shawarma.html</loc>
+    </url>
+
+</urlset>
