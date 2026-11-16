@@ -4,7 +4,7 @@
     min-height: 400px;
     background:
         linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
-        url("../icon-512.png") center/cover no-repeat;
+        url("icon-512.png") center/cover no-repeat;
 
     display: flex;
     align-items: center;
