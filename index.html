@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nigerian Kitchen | Jollof Rice, Soups &amp; Shawarma in Gwagwalada</title>
+    <meta name="description" content="Order delicious Nigerian meals in Gwagwalada, Abuja: jollof rice, soups, shawarma and chilled drinks from ₦2,000. Order easily on WhatsApp.">
+    <link rel="canonical" href="https://YOUR-DOMAIN.com/">
+    <meta name="theme-color" content="#0a2e17">
+
+    <!-- Icons -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- Share preview (WhatsApp, Facebook, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nigerian Kitchen">
+    <meta property="og:locale" content="en_NG">
+    <meta property="og:title" content="Nigerian Kitchen | Good Food, Great Mood">
+    <meta property="og:description" content="Jollof rice, soups, shawarma and chilled drinks in Gwagwalada, Abuja. Order on WhatsApp.">
+    <meta property="og:url" content="https://YOUR-DOMAIN.com/">
+    <meta property="og:image" content="https://YOUR-DOMAIN.com/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Nigerian Kitchen, Gwagwalada, Abuja">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Order matters: data first, then shared scripts, then page script -->
+    <script src="js/menu-data.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+    <script src="js/cart-counter.js" defer></script>
+    <script src="js/home.js" defer></script>
+
+    <!-- Helps Google show the restaurant in local searches -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Nigerian Kitchen",
+        "url": "https://YOUR-DOMAIN.com/",
+        "image": "https://YOUR-DOMAIN.com/images/og-image.jpg",
+        "telephone": "+2347026456760",
+        "servesCuisine": "Nigerian",
+        "priceRange": "₦",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Gravotab Plaza, Kuje–Gwagwalada Road",
+            "addressLocality": "Gwagwalada",
+            "addressRegion": "Abuja",
+            "addressCountry": "NG"
+        }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>
+            Good food, great mood!
+            <span>Meals from ₦2,000</span>
+        </p>
+    </div>
+
+
+    <!-- Navigation -->
+    <header class="site-header">
+
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">NK</span>
+
+                <span class="logo-text">
+                    <strong>NIGERIA</strong>
+                    <span>KITCHEN</span>
+                </span>
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <div class="nav-links" id="nav-links">
+
+                <a href="index.html" class="nav-link active">Home</a>
+
+                <a href="menu.html" class="nav-link">Our Menu</a>
+
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="blog/index.html" class="nav-link">Journal</a>
+
+                <a href="#location" class="nav-link">Contact</a>
+
+                <a href="cart.html" class="nav-link cart-nav-link">
+                    Cart (<span class="cart-count">0</span>)
+                </a>
+
+                <a
+                    href="https://wa.me/2349074737356"
+                    class="nav-order-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Order Now <span aria-hidden="true">↗</span>
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-content container">
+
+                <span class="hero-label">
+                    GOOD FOOD. GREAT TASTE.
+                </span>
+
+                <h1>
+                    Your Cravings.<br>
+                    <span>Our Kitchen.</span>
+                </h1>
+
+                <p class="hero-description">
+                    From delicious jollof rice to rich Nigerian soups
+                    and tasty shawarma, we've got something to satisfy
+                    every craving.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="menu.html" class="button button-primary">
+                        Explore Our Menu
+                        <span aria-hidden="true">→</span>
+                    </a>
+
+                    <a
+                        href="https://wa.me/2349074737356"
+                        class="button button-outline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Order on WhatsApp
+                    </a>
+
+                </div>
+
+                <div class="hero-details">
+
+                    <div class="hero-detail">
+                        <span class="detail-icon" aria-hidden="true">₦</span>
+
+                        <div>
+                            <strong>Affordable Meals</strong>
+                            <p>From ₦2,000</p>
+                        </div>
+                    </div>
+
+                    <div class="hero-detail">
+                        <span class="detail-icon" aria-hidden="true">⌖</span>
+
+                        <div>
+                            <strong>Based in Gwagwalada</strong>
+                            <p>Abuja, Nigeria</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hero-tag">
+                <span>MADE WITH</span>
+                <strong>LOVE &amp; FLAVOUR</strong>
+            </div>
+
+        </section>
+
+
+        <!-- Popular Meals Section -->
+        <section class="popular-section section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="eyebrow">STRAIGHT FROM OUR KITCHEN</span>
+
+                        <h2>
+                            Good Food.<br>
+                            <span>That Naija Taste.</span>
+                        </h2>
+                    </div>
+
+                    <a href="menu.html" class="text-link">
+                        Explore Full Menu →
+                    </a>
+
+                </div>
+
+
+                <div class="food-grid" id="popular-food-grid">
+                    <!-- Food cards are added by js/home.js -->
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Why Choose Nigerian Kitchen -->
+        <section class="why-us-section section-padding">
+            <div class="container">
+
+                <div class="why-us-heading">
+                    <span class="eyebrow">WHY CUSTOMERS LOVE US</span>
+
+                    <h2>
+                        Good Food Is Our <span>Promise.</span>
+                    </h2>
+
+                    <p>
+                        At Nigerian Kitchen, we believe great food should
+                        be delicious, satisfying and affordable.
+                    </p>
+                </div>
+
+
+                <div class="why-us-grid">
+
+                    <div class="why-us-card">
+                        <div class="why-icon">🍲</div>
+                        <h3>Freshly Prepared</h3>
+                        <p>
+                            Every meal is prepared with care using
+                            ingredients selected for great taste.
+                        </p>
+                    </div>
+
+                    <div class="why-us-card">
+                        <div class="why-icon">₦</div>
+                        <h3>Affordable Prices</h3>
+                        <p>
+                            Enjoy delicious Nigerian meals without
+                            stretching your budget.
+                        </p>
+                    </div>
+
+                    <div class="why-us-card">
+                        <div class="why-icon">🚚</div>
+                        <h3>Convenient Ordering</h3>
+                        <p>
+                            Place your order easily through WhatsApp
+                            and enjoy a convenient ordering experience.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About Nigerian Kitchen -->
+        <section class="about-section section-padding">
+
+            <div class="container about-container">
+
+                <div class="about-image">
+
+                    <img
+                        src="images/food.jpeg"
+                        alt="Delicious Nigerian food prepared at Nigerian Kitchen"
+                        loading="lazy"
+                    >
+
+                    <div class="about-image-badge">
+                        <span>🇳🇬</span>
+                        <div>
+                            <strong>Made with Nigerian Flavour</strong>
+                            <p>Good food, great mood.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="eyebrow">A LITTLE ABOUT US</span>
+
+                    <h2>
+                        Bringing the Taste of
+                        <span>Home to Your Table.</span>
+                    </h2>
+
+                    <p>
+                        At Nigerian Kitchen, we believe good food brings
+                        people together. Our goal is to make enjoying
+                        delicious Nigerian meals easy and affordable.
+                    </p>
+
+                    <p>
+                        From satisfying rice dishes to traditional soups
+                        and tasty snacks, there's always something
+                        delicious waiting for you.
+                    </p>
+
+                    <div class="about-highlights">
+
+                        <div class="about-highlight">
+                            <span>✓</span>
+                            <p>Delicious Nigerian Meals</p>
+                        </div>
+
+                        <div class="about-highlight">
+                            <span>✓</span>
+                            <p>Affordable Food Options</p>
+                        </div>
+
+                        <div class="about-highlight">
+                            <span>✓</span>
+                            <p>Convenient Ordering</p>
+                        </div>
+
+                    </div>
+
+                    <a href="about.html" class="button about-button">
+                        Discover Our Story →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Location -->
+        <section class="location-section section-padding" id="location">
+            <div class="container">
+
+                <div class="section-heading location-heading">
+                    <div>
+                        <span class="eyebrow">COME FIND US</span>
+                        <h2>Visit <span>Our Kitchen.</span></h2>
+                        <p>Looking for us? Here's where the good food happens.</p>
+                    </div>
+                </div>
+
+                <div class="location-container">
+
+                    <div class="location-details">
+                        <div class="location-icon">📍</div>
+
+                        <span class="eyebrow">OUR LOCATION</span>
+
+                        <h3>Find Us in Gwagwalada</h3>
+
+                        <p>
+                            Gravotab Plaza, along Kuje–Gwagwalada Road,
+                            Gwagwalada, Abuja.
+                        </p>
+
+                        <div class="location-divider"></div>
+
+                        <h4>Want to place an order?</h4>
+
+                        <p>
+                            Contact us on WhatsApp to place an order
+                            or ask about delivery.
+                        </p>
+
+                        <a
+                            href="https://wa.me/2349074737356?text=Hello%20Nigerian%20Kitchen,%20I%20would%20like%20to%20make%20an%20enquiry."
+                            class="button location-button"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Chat With Us on WhatsApp →
+                        </a>
+                    </div>
+
+                    <div class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps?q=Gravotab+Plaza,+Kuje-Gwagwalada+Road,+Gwagwalada,+Abuja&output=embed"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Nigerian Kitchen location in Gwagwalada, Abuja"
+                        ></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        NIGERIA<span>KITCHEN</span>
+                    </a>
+
+                    <p>
+                        Good food, great mood. Enjoy delicious Nigerian meals
+                        made to satisfy your cravings.
+                    </p>
+
+                    <a
+                        href="https://wa.me/2349074737356"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="footer-order-link"
+                    >
+                        Order on WhatsApp →
+                    </a>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Our Menu</a>
+                    <a href="about.html">About Us</a>
+                    <a href="#location">Find Us</a>
+                    <a href="cart.html">Cart</a>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+
+                    <p>📍 Gravotab Plaza, Kuje–Gwagwalada Road, Gwagwalada, Abuja.</p>
+
+                    <a
+                        href="https://wa.me/2349074737356"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        WhatsApp: +234 907 473 7356
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; <span id="current-year"></span> Nigeria Kitchen.
+                    All rights reserved.
+                </p>
+
+                <p>Good Food. Great Mood.</p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
