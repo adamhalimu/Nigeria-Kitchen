@@ -297,7 +297,7 @@
 
 }
 @media (max-width: 480px) {
-    @media (max-width: 768px) {
+   
 
     .filter-button,
     .filter-button:hover,
@@ -313,8 +313,6 @@
         -webkit-text-fill-color: #173F2A !important;
     }
 
-}
-}
 
 @media (max-width: 600px) {
 
