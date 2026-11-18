@@ -70,20 +70,24 @@
     padding: 11px 22px;
     border: 1px solid #ddd;
     background: white;
+    color: var(--color-green);
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
     transition: 0.3s ease;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .filter-button:hover,
+.filter-button:focus,
+.filter-button:active,
 .filter-button.active {
     background: var(--color-yellow);
     border-color: var(--color-yellow);
-    color: var(--color-black);
+    color: var(--color-green);
 }
-
 
 /* MENU GRID */
 
