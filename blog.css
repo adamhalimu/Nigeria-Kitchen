@@ -163,18 +163,18 @@
 }
 
 .blog-filter {
-    padding: 10px 18px;
+    padding: 11px 22px;
     border: 1px solid #ddd;
-    border-radius: 30px;
     background: white;
+    color: var(--color-green);
+    border-radius: 5px;
     cursor: pointer;
-    font: inherit;
-    transition: 0.3s;
-     color: var(--color-green);
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s ease;
     -webkit-appearance: none;
     appearance: none;
 }
-
 
 .blog-filter:hover,
 .blog-filter:focus,
