@@ -1,8 +1,4 @@
-
-// Needs menu-data.js (menuItems, formatPrice, getUnitPrice, getSizeLabel) and
-// cart-counter.js (CART_KEY, getCart, updateCartCounter) loaded first.
-
-const WHATSAPP_NUMBER = "2347026456760";
+const WHATSAPP_NUMBER = "2349074737356";
 
 const cartItemsContainer = document.querySelector("#cart-items");
 const emptyCart = document.querySelector("#empty-cart");
