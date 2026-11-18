@@ -296,22 +296,7 @@
     }
 
 }
-@media (max-width: 480px) {
-   
 
-    .filter-button,
-    .filter-button:hover,
-    .filter-button:focus,
-    .filter-button:active,
-    .filter-button.active,
-    .blog-filter,
-    .blog-filter:hover,
-    .blog-filter:focus,
-    .blog-filter:active,
-    .blog-filter.active {
-        color: #173F2A !important;
-        -webkit-text-fill-color: #173F2A !important;
-    }
 
 
 @media (max-width: 600px) {
