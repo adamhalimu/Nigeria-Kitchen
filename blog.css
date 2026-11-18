@@ -180,6 +180,8 @@
 .blog-filter:focus,
 .blog-filter:active,
 .blog-filter.active {
+    background: var(--color-yellow);
+    border-color: var(--color-yellow);
     color: var(--color-green);
 }
 
