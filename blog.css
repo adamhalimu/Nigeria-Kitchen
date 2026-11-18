@@ -170,13 +170,17 @@
     cursor: pointer;
     font: inherit;
     transition: 0.3s;
+     color: var(--color-green);
+    -webkit-appearance: none;
+    appearance: none;
 }
 
+
 .blog-filter:hover,
+.blog-filter:focus,
+.blog-filter:active,
 .blog-filter.active {
-    background: var(--color-green);
-    color: white;
-    border-color: var(--color-green);
+    color: var(--color-green);
 }
 
 
