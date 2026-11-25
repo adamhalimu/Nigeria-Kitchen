@@ -68,7 +68,7 @@ const menuItems = [
         category: "soups",
         description: "Leafy vegetable soup full of flavour.",
         price: 2000,
-        image: "vegetable.jpg"
+        image: "Vegetable.jpg"
     },
     {
         id: 9,
