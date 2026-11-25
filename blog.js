@@ -4,7 +4,7 @@ const articles = [
         category: "recipes",
         categoryName: "Nigerian Recipes",
         description: "Learn about the ingredients and cooking techniques used to prepare delicious Nigerian Jollof Rice.",
-        image: "food.jpeg",
+        image: "Jollof.jpg",
         link: "jollof-rice-recipe.html",
         date: "Coming Soon"
     },
@@ -13,7 +13,7 @@ const articles = [
         category: "recipes",
         categoryName: "Nigerian Recipes",
         description: "Discover the ingredients and preparation process behind this popular Nigerian soup.",
-        image: "food.jpeg",
+        image: "bitterleaf.jpg",
         link: "bitterleaf-soup-recipe.html",
         date: "Coming Soon"
     },
@@ -22,7 +22,7 @@ const articles = [
         category: "cooking-guides",
         categoryName: "Cooking Guides",
         description: "Explore essential cooking techniques and ingredients used in Nigerian cuisine.",
-        image: "food.jpeg",
+        image: "Hero3.jpg",
         link: "nigerian-cooking-guide.html",
         date: "Coming Soon"
     },
@@ -31,7 +31,7 @@ const articles = [
         category: "recipes",
         categoryName: "Nigerian Recipes",
         description: "Learn how catfish pepper soup is prepared using traditional Nigerian flavours.",
-        image: "food.jpeg",
+        image: "catfish.jpg",
         link: "catfish-pepper-soup.html",
         date: "Coming Soon"
     },
@@ -40,7 +40,7 @@ const articles = [
         category: "food-knowledge",
         categoryName: "Food Knowledge",
         description: "Get familiar with some popular Nigerian soups and what makes each one special.",
-        image: "food.jpeg",
+        image: "hero.jpg",
         link: "popular-nigerian-soups.html",
         date: "Coming Soon"
     },
@@ -49,7 +49,7 @@ const articles = [
         category: "kitchen-tips",
         categoryName: "Kitchen Tips",
         description: "Explore the ingredients and preparation techniques behind Nigerian-style shawarma.",
-        image: "food.jpeg",
+        image: "Hero2.jpg",
         link: "homemade-nigerian-shawarma.html",
         date: "Coming Soon"
     }
