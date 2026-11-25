@@ -6,7 +6,7 @@ const menuItems = [
         category: "rice",
         description: "Flavour-packed Nigerian jollof rice.",
         price: 2000,
-        image: "food.jpeg",
+        image: "Jollof.jpg",
         bigTakeawayPrice: 3000,
         popular: true
     },
@@ -16,7 +16,7 @@ const menuItems = [
         category: "soups",
         description: "Traditional bitter leaf soup, rich in flavour.",
         price: 2000,
-        image: "food.jpeg",
+        image: "Egusi.jpg",
         popular: true
     },
     {
@@ -25,7 +25,7 @@ const menuItems = [
         category: "soups",
         description: "Fresh catfish cooked in a spicy pepper broth.",
         price: 2500,
-        image: "food.jpeg",
+        image: "catfish.jpg",
         popular: true
     },
     {
@@ -34,7 +34,7 @@ const menuItems = [
         category: "shawarma",
         description: "A tasty and satisfying chicken shawarma.",
         price: 2000,
-        image: "food.jpeg",
+        image: "shawarma.jpg",
         popular: true
     },
     {
@@ -43,7 +43,7 @@ const menuItems = [
         category: "rice",
         description: "Colourful Nigerian fried rice.",
         price: 2000,
-        image: "food.jpeg",
+        image: "fried.jpg",
         bigTakeawayPrice: 3000
     },
     {
@@ -52,7 +52,7 @@ const menuItems = [
         category: "soups",
         description: "Rich and hearty egusi soup.",
         price: 2000,
-        image: "food.jpeg"
+        image: "Egusi.jpg"
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const menuItems = [
         category: "soups",
         description: "Smooth, comforting draw soup.",
         price: 2000,
-        image: "food.jpeg"
+        image: "okro.jpg"
     },
     {
         id: 8,
@@ -68,7 +68,7 @@ const menuItems = [
         category: "soups",
         description: "Leafy vegetable soup full of flavour.",
         price: 2000,
-        image: "food.jpeg"
+        image: "vegetable.jpg"
     },
     {
         id: 9,
@@ -76,7 +76,7 @@ const menuItems = [
         category: "soups",
         description: "Classic ogbono soup, thick and tasty.",
         price: 2000,
-        image: "food.jpeg"
+        image: "ogbono.jpg"
     },
     {
         id: 10,
@@ -84,7 +84,7 @@ const menuItems = [
         category: "protein",
         description: "Well-seasoned grilled chicken.",
         price: 1000,
-        image: "food.jpeg"
+        image: "chicken.jpg"
     },
     {
         id: 11,
@@ -92,7 +92,7 @@ const menuItems = [
         category: "protein",
         description: "Well-seasoned grilled chicken.",
         price: 1500,
-        image: "food.jpeg"
+        image: "chicken.jpg"
     },
     {
         id: 12,
@@ -100,7 +100,7 @@ const menuItems = [
         category: "protein",
         description: "Well-seasoned grilled chicken.",
         price: 2000,
-        image: "food.jpeg"
+        image: "chicken.jpg"
     },
     {
         id: 13,
@@ -108,7 +108,7 @@ const menuItems = [
         category: "protein",
         description: "Well-seasoned grilled chicken.",
         price: 2500,
-        image: "food.jpeg"
+        image: "chicken.jpg"
     },
     {
         id: 14,
@@ -116,7 +116,7 @@ const menuItems = [
         category: "protein",
         description: "Tender, well-seasoned beef.",
         price: 1000,
-        image: "food.jpeg"
+        image: "beef.jpg"
     },
     {
         id: 15,
@@ -124,7 +124,7 @@ const menuItems = [
         category: "protein",
         description: "Golden fried plantain.",
         price: 500,
-        image: "food.jpeg"
+        image: "plantain.jpg"
     },
     {
         id: 16,
@@ -132,7 +132,7 @@ const menuItems = [
         category: "shawarma",
         description: "Chicken shawarma with one sausage.",
         price: 3000,
-        image: "food.jpeg"
+        image: "shawarma.jpg"
     },
     {
         id: 17,
@@ -140,7 +140,7 @@ const menuItems = [
         category: "shawarma",
         description: "Chicken shawarma with double sausage.",
         price: 3900,
-        image: "food.jpeg"
+        image: "shawarma.jpg"
     },
     {
         id: 18,
@@ -148,7 +148,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 500,
-        image: "food.jpeg"
+        image: "coke.jpg"
     },
     {
         id: 19,
@@ -156,7 +156,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 700,
-        image: "drink-malt.jpg"
+        image: "amstel.jpg"
     },
     {
         id: 20,
@@ -164,7 +164,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 2000,
-        image: "drink-bullet.jpg"
+        image: "bullet.jpg"
     },
     {
         id: 21,
@@ -173,7 +173,7 @@ const menuItems = [
         alcoholic: true,
         description: "Served chilled.",
         price: 1300,
-        image: "drink-despirado.jpg"
+        image: "desperado.jpg"
     },
     {
         id: 22,
@@ -182,7 +182,7 @@ const menuItems = [
         alcoholic: true,
         description: "Served chilled.",
         price: 1000,
-        image: "drink-hero.jpg"
+        image: "herobear.jpg"
     },
     {
         id: 23,
@@ -191,7 +191,7 @@ const menuItems = [
         alcoholic: true,
         description: "Served chilled.",
         price: 1300,
-        image: "drink-smirnoff.jpg"
+        image: "smirnoff.jpg"
     },
     {
         id: 24,
@@ -200,7 +200,7 @@ const menuItems = [
         alcoholic: true,
         description: "Served chilled.",
         price: 1000,
-        image: "drink-trophy.jpg"
+        image: "trophy.jpg"
     },
     {
         id: 25,
@@ -209,7 +209,7 @@ const menuItems = [
         alcoholic: true,
         description: "Served chilled.",
         price: 1400,
-        image: "drink-guinness.jpg"
+        image: "guiness.jpg"
     },
     {
         id: 26,
@@ -218,7 +218,7 @@ const menuItems = [
         alcoholic: true,
         description: "Served chilled.",
         price: 1200,
-        image: "drink-legend.jpg"
+        image: "legend.jpg"
     },
     {
         id: 27,
@@ -227,7 +227,7 @@ const menuItems = [
         alcoholic: true,
         description: "Served chilled.",
         price: 1000,
-        image: "drink-life.jpg"
+        image: "life.jpg"
     },
     {
         id: 28,
@@ -235,7 +235,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 600,
-        image: "drink-predator.jpg"
+        image: "predator.jpg"
     },
     {
         id: 29,
@@ -243,7 +243,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 500,
-        image: "drink-infinite-power.jpg"
+        image: "infinite.jpg"
     },
     {
         id: 30,
@@ -251,7 +251,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 500,
-        image: "drink-teem.jpg"
+        image: "team.jpg"
     },
     {
         id: 31,
@@ -259,7 +259,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 500,
-        image: "drink-sprite.jpg"
+        image: "sprite.jpg"
     },
     {
         id: 32,
@@ -267,7 +267,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 500,
-        image: "drink-fearless.jpg"
+        image: "fearless.jpg"
     },
     {
         id: 33,
@@ -276,7 +276,7 @@ const menuItems = [
         alcoholic: true,
         description: "Served chilled.",
         price: 1000,
-        image: "drink-vuji-baker.jpg"
+        image: "viju.jpg"
     },
     {
         id: 34,
@@ -284,7 +284,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 500,
-        image: "drink-fanta.jpg"
+        image: "fanta.jpg"
     },
     {
         id: 35,
@@ -292,7 +292,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 700,
-        image: "drink-nutri-milk.jpg"
+        image: "nutrimilk.jpg"
     },
     {
         id: 36,
@@ -300,7 +300,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 1500,
-        image: "drink-5alive.jpg"
+        image: "alive.jpg"
     },
     {
         id: 37,
@@ -308,9 +308,29 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 250,
-        image: "food.jpeg"
+        image: "water.jpg"
     }
 ];
+
+// size is "regular" (small takeaway) or "big". Anything else counts as regular.
+function getUnitPrice(meal, size) {
+    return size === "big" && meal.bigTakeawayPrice
+        ? meal.bigTakeawayPrice
+        : meal.price;
+}
+
+function getSizeLabel(size) {
+    return size === "big" ? "Big takeaway" : "Small takeaway";
+}
+
+function formatPrice(price) {
+    return new Intl.NumberFormat("en-NG", {
+        style: "currency",
+        currency: "NGN",
+        maximumFractionDigits: 0
+    }).format(price);
+}
+
 
 // size is "regular" (small takeaway) or "big". Anything else counts as regular.
 function getUnitPrice(meal, size) {
