@@ -16,7 +16,7 @@ const menuItems = [
         category: "soups",
         description: "Traditional bitter leaf soup, rich in flavour.",
         price: 2000,
-        image: "Egusi.jpg",
+        image: "bitterleaf.jpg",
         popular: true
     },
     {
@@ -43,7 +43,7 @@ const menuItems = [
         category: "rice",
         description: "Colourful Nigerian fried rice.",
         price: 2000,
-        image: "fried.jpg",
+        image: "Fried.jpg",
         bigTakeawayPrice: 3000
     },
     {
@@ -56,7 +56,7 @@ const menuItems = [
     },
     {
         id: 7,
-        name: "Draw Soup",
+        name: "Okro Soup",
         category: "soups",
         description: "Smooth, comforting draw soup.",
         price: 2000,
@@ -124,7 +124,7 @@ const menuItems = [
         category: "protein",
         description: "Golden fried plantain.",
         price: 500,
-        image: "plantain.jpg"
+        image: "Plantain.jpg"
     },
     {
         id: 16,
@@ -267,7 +267,7 @@ const menuItems = [
         category: "drinks",
         description: "Served chilled.",
         price: 500,
-        image: "fearless.jpg"
+        image: "Fearless.jpg"
     },
     {
         id: 33,
